@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: sticky;
+    top: 0;
+}
+
+#encabezado {
+    height: 200px;
+    width: 100%;
+    background-color: black;
+    position: relative;
+}
+
+#logo {
+    height: 180px;
+    width: 200px;
+    background-color: transparent;
+    position: absolute;
+    left: 20px;
+    top: 8.5px;
+}
+
+img {
+    height: 180px;
+    width: 150px;
+}
+
+#empresa {
+    height: 100px;
+    width: 400px;
+    background-color: blue;
+    position: absolute;
+    top: 50px;
+    left: 350px;
+}
+
+#empresa h1 {
+    color: white;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+p {
+    text-align: justify;
+}
+#botonera {
+    height: 50px;
+    width: 500px;
+    background-color: red;
+    position: absolute;
+    top:75px;
+    right: 20px;
+}
+
+ul, li {
+    display: inline;
+    margin-left: 30px;
+}
+
+li {
+    font-weight: bold;
+}
+
